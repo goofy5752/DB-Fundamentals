@@ -121,3 +121,18 @@ SELECT DepartmentID, MAX(Salary) AS 'MaxSalary'
 SELECT COUNT(*)
 	FROM Employees
 	WHERE ManagerID IS NULL
+
+-- Problem 18. *3rd Highest Salary
+SELECT DISTINCT k.DepartmentID, k.Salary
+	FROM(
+	(SELECT DepartmentID, Salary,
+	DENSE_RANK() OVER (PARTITION BY DepartmentId ORDER BY Salary DESC) AS RankSalary
+	FROM Employees)) AS k
+	WHERE RankSalary = 3
+
+-- Problem 19. **Salary Challenge
+SELECT TOP(10) FirstName, LastName, DepartmentID
+	FROM Employees AS e
+	WHERE Salary > 
+	(SELECT AVG(Salary) FROM Employees AS em WHERE e.DepartmentID = em.DepartmentID)
+	ORDER BY DepartmentID
