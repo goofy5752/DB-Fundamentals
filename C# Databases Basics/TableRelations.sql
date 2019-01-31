@@ -1,4 +1,4 @@
---               Exercises: Table Relations
+﻿--               Exercises: Table Relations
 
 -- Problem 1. One-To-One Relationship
 CREATE DATABASE TableRelations
@@ -72,3 +72,43 @@ VALUES
 	('Model X',	2),
 	('Model 3',	2),
 	('Nova',	3)
+
+-- Problem 3. Many-To-Many Relationship
+CREATE TABLE Students
+(
+	StudentID INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(15)
+)
+
+CREATE TABLE Exams
+(
+	ExamID INT PRIMARY KEY IDENTITY(101, 1),
+	[Name] VARCHAR(20)
+)
+
+CREATE TABLE StudentsExams
+(
+	StudentID INT FOREIGN KEY REFERENCES Students(StudentID),
+	ExamID INT FOREIGN KEY REFERENCES Exams(ExamID)
+)
+
+INSERT INTO Exams ([Name])
+VALUES
+	('SpringMVÇ'),
+	('Neo4j'),
+	('Oracle 11g')
+
+INSERT INTO Students ([Name])
+VALUES
+	('Mila'),                                   
+	('Toni'),
+	('Ron')
+
+INSERT INTO StudentsExams (StudentID, ExamID)
+VALUES
+	(1,	101),
+	(1,	102),
+	(2,	101),
+	(3,	103),
+	(2,	102),
+	(2,	103)
