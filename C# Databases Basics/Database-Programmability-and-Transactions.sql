@@ -61,3 +61,127 @@ SELECT FirstName, LastName
 	WHERE dbo.ufn_GetSalaryLevel(Salary) = @salaryLevel
 
 -- Problem 7. Define Function
+CREATE FUNCTION ufn_IsWordComprised(@setOfLetters VARCHAR(15), @word VARCHAR(15))
+RETURNS BIT
+BEGIN
+	DECLARE @count INT = 1
+
+WHILE (@count <= LEN(@word))
+BEGIN
+	DECLARE @currentLetter CHAR(1) = SUBSTRING(@word, @count, 1)
+	DECLARE @charIndex INT = CHARINDEX(@currentletter, @setOfLetters)
+
+	IF(@charIndex = 0)
+	BEGIN
+		RETURN 0
+	END
+
+	SET @count += 1
+END
+RETURN 1
+END
+
+-- Problem 8. * Delete Employees and Departments
+CREATE PROC usp_DeleteEmployeesFromDepartment(@departmentId INT)
+AS
+  ALTER TABLE Departments
+    ALTER COLUMN ManagerID INT NULL
+
+  DELETE FROM EmployeesProjects
+  WHERE EmployeeID IN
+        (
+          SELECT EmployeeID
+          FROM Employees
+          WHERE DepartmentID = @departmentId
+        )
+
+  UPDATE Employees
+  SET ManagerID = NULL
+  WHERE ManagerID IN
+        (
+          SELECT EmployeeID
+          FROM Employees
+          WHERE DepartmentID = @departmentId
+        )
+
+  UPDATE Departments
+  SET ManagerID = NULL
+  WHERE ManagerID IN
+        (
+          SELECT EmployeeID
+          FROM Employees
+          WHERE DepartmentID = @departmentId
+        )
+
+  DELETE FROM Employees
+  WHERE EmployeeID IN
+        (
+          SELECT EmployeeID
+          FROM Employees
+          WHERE DepartmentID = @departmentId
+        )
+
+  DELETE FROM Departments
+  WHERE DepartmentID = @departmentId
+
+  SELECT COUNT(*) AS [Employees Count]
+  FROM Employees AS E
+    JOIN Departments AS D
+      ON D.DepartmentID = E.DepartmentID
+  WHERE E.DepartmentID = @departmentId
+
+--				Part 2. Queries for Bank Database
+
+-- Problem 9. Find Full Name
+CREATE PROCEDURE usp_GetHoldersFullName
+AS
+SELECT FirstName + ' ' + LastName AS [Full Name]
+	FROM AccountHolders
+
+-- Problem 10. People with Balance Higher Than
+CREATE PROCEDURE usp_GetHoldersWithBalanceHigherThan (@inputNumber DECIMAL(18, 4))
+AS
+SELECT k.FirstName, k.LastName
+	FROM (
+SELECT ah.Id, FirstName, LastName
+	FROM AccountHolders AS ah
+	JOIN Accounts AS a ON a.AccountHolderId = ah.Id
+	GROUP BY ah.Id, FirstName, LastName 
+	HAVING SUM(a.Balance) > @inputNumber) AS k
+	ORDER BY k.FirstName, k.LastName
+
+-- Problem 11. Future Value Function
+CREATE FUNCTION ufn_CalculateFutureValue (@sum DECIMAL (18,4), @yearlyInterestRate FLOAT, @numberOfYears INT)
+RETURNS DECIMAL(18, 4)
+BEGIN
+	DECLARE @totalSum DECIMAL(18, 4) = @sum * POWER((1 + @yearlyInterestRate), @numberOfYears)
+
+	RETURN @totalSum
+END
+
+-- Problem 12. Calculating Interest
+CREATE PROCEDURE usp_CalculateFutureValueForAccount (@accountId INT, @interestRate FLOAT)
+AS
+SELECT a.Id, ah.FirstName, ah.LastName, a.Balance, dbo.ufn_CalculateFutureValue(a.Balance, @interestRate, 5) AS [Balance In 5 years]
+	FROM AccountHolders AS ah
+	JOIN Accounts AS a ON a.AccountHolderId = ah.Id
+	WHERE a.Id = @accountId
+
+--                 Part 3. Queries for Diablo Database
+
+-- Problem 13. *Scalar Function: Cash in User Games Odd Rows
+CREATE FUNCTION ufn_CashInUsersGames (@gameName VARCHAR(MAX))
+RETURNS TABLE
+AS
+RETURN
+(
+SELECT SUM(k.Cash) AS TotalCash
+	FROM (
+	SELECT Cash, ROW_NUMBER() OVER(ORDER BY Cash DESC) AS [Row]
+		FROM Games AS g
+		JOIN UsersGames AS ug ON ug.GameId = g.Id
+		WHERE g.Name = @gameName ) AS k
+		WHERE k.Row % 2 = 1 
+)
+
+SELECT * FROM dbo.ufn_CashInUsersGames ('Love in a mist')
