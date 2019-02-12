@@ -184,4 +184,8 @@ SELECT SUM(k.Cash) AS TotalCash
 		WHERE k.Row % 2 = 1 
 )
 
-SELECT * FROM dbo.ufn_CashInUsersGames ('Love in a mist')
+--                 Section II. Triggers and Transactions
+
+--                  Part 1. Queries for Bank Database
+
+-- Problem 14. Create Table Logs
