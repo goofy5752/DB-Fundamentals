@@ -128,3 +128,31 @@ SELECT TOP(10) oi.OrderId, MAX(i.Price) AS 'ExpensivePrice', MIN(i.Price) AS 'Ch
 	JOIN OrderItems AS oi ON oi.ItemId = i.Id
 	GROUP BY oi.OrderId 
 	ORDER BY ExpensivePrice DESC, oi.OrderId
+
+-- 11. Cashiers
+SELECT e.Id, e.FirstName, e.LastName
+	FROM Employees AS e
+	JOIN Orders AS o ON o.EmployeeId = e.Id
+	GROUP BY e.Id, e.FirstName, e.LastName
+	ORDER BY e.Id
+
+-- 12. Lazy Employees
+SELECT DISTINCT e.Id, e.FirstName + ' ' + e.LastName AS [Full Name]
+	FROM Employees AS e
+	JOIN Shifts AS s ON s.EmployeeId = e.Id
+	WHERE DATEDIFF(HOUR, s.CheckIn, s.CheckOut) < 4
+	ORDER BY e.Id
+
+-- 13. Sellers
+SELECT TOP(10) e.FirstName + ' ' + e.LastName AS [Full Name],
+	   SUM(oi.Quantity * i.Price) AS [Total Price],
+	   SUM(oi.Quantity) AS [Items]
+	FROM Employees AS e
+	JOIN Orders AS o ON o.EmployeeId = e.Id
+	JOIN OrderItems AS oi ON oi.OrderId = o.Id
+	JOIN Items AS i ON i.Id = oi.ItemId
+	WHERE o.[DateTime] < '2018-06-15'
+	GROUP BY e.FirstName, e.LastName
+	ORDER BY [Total Price] DESC, Items DESC
+
+-- 14. Tough days
