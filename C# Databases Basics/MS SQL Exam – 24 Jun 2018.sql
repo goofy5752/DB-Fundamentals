@@ -156,3 +156,38 @@ SELECT TOP(10) e.FirstName + ' ' + e.LastName AS [Full Name],
 	ORDER BY [Total Price] DESC, Items DESC
 
 -- 14. Tough days
+SELECT e.FirstName + ' ' + e.LastName AS [Full Name],
+	CASE
+	WHEN DATEPART(weekday, s.CheckIn) = 1 THEN 'Sunday'
+	WHEN DATEPART(weekday, s.CheckIn) = 2 THEN 'Monday'
+	WHEN DATEPART(weekday, s.CheckIn) = 3 THEN 'Tuesday'
+	WHEN DATEPART(weekday, s.CheckIn) = 4 THEN 'Wednesday'
+	WHEN DATEPART(weekday, s.CheckIn) = 5 THEN 'Thursday'
+	WHEN DATEPART(weekday, s.CheckIn) = 6 THEN 'Friday'
+	END AS [Day of week]
+	FROM Employees AS e
+	LEFT JOIN Orders AS o ON o.EmployeeId = e.Id
+	JOIN Shifts AS s ON s.EmployeeId = e.Id
+	WHERE DATEDIFF(HOUR, s.CheckIn, s.CheckOut) > 12 
+	AND o.EmployeeId IS NULL
+	ORDER BY e.Id
+
+-- 15. Top Order per Employee
+SELECT k.[Full Name],DATEDIFF(HOUR, s.CheckIn, s.CheckOut) AS WorkHours, k.TotalPrice
+	FROM(
+	SELECT 
+	   e.FirstName + ' ' + e.LastName AS [Full Name],
+	   e.Id AS eId,
+	   o.Id AS oId,
+	   SUM(oi.Quantity * i.Price) AS [TotalPrice],
+	   ROW_NUMBER() OVER (PARTITION BY e.Id ORDER BY SUM(oi.Quantity * i.Price) DESC) AS RowNumber,
+	   o.DateTime
+	 FROM Employees AS e
+	 JOIN Orders AS o ON o.EmployeeId = e.Id
+	 JOIN OrderItems AS oi ON oi.OrderId = o.Id
+	 JOIN Items AS i ON i.Id = oi.ItemId
+	 GROUP BY o.Id, e.FirstName, e.LastName, e.Id, o.DateTime) AS k
+	 JOIN Shifts AS s ON s.EmployeeId = k.eId
+	 WHERE k.DateTime BETWEEN s.CheckIn AND s.CheckOut 
+					AND RowNumber = 1
+	 ORDER BY k.[Full Name], WorkHours, k.TotalPrice
