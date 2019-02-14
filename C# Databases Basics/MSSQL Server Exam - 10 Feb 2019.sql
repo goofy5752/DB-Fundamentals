@@ -55,10 +55,10 @@ CREATE TABLE TravelCards
 )
 
 ALTER TABLE Journeys
-ADD CONSTRAINT CHK_Journey CHECK (Purpose = 'Medical' AND Purpose = 'Technical' AND Purpose = 'Educational' AND Purpose = 'Military')
+ADD CONSTRAINT CHK_Journeys CHECK (Purpose IN('Medical', 'Technical' ,'Educational','Military'))
 
 ALTER TABLE TravelCards
-ADD CONSTRAINT CHK_TravelCard CHECK (JobDuringJourney = 'Engineer' AND JobDuringJourney = 'Pilot' AND JobDuringJourney = 'Trooper' AND JobDuringJourney = 'Cleaner' AND JobDuringJourney = 'Cook')
+ADD CONSTRAINT CHK_TravelCards CHECK (JobDuringJourney IN('Engineer', 'Pilot', 'Trooper', 'Cleaner', 'Cook'))
 
 -- Section 2. DML (10 pts)
 
@@ -74,3 +74,54 @@ INSERT INTO Spaceships VALUES
 ('WakaWaka',	'Wakanda',	4),
 ('Falcon9',	'SpaceX',	1),
 ('Bed',	'Vidolov',	6)
+
+-- 3. Update
+UPDATE Spaceships
+SET LightSpeedRate += 1
+WHERE Id BETWEEN 8 AND 12
+
+-- 4. Delete
+DELETE FROM TravelCards
+WHERE JourneyId IN (1, 2 ,3)
+
+DELETE TOP(3) 
+FROM Journeys
+
+--  Section 3. Querying (40 pts)
+
+-- 5. Select all travel cards
+SELECT CardNumber, JobDuringJourney
+	FROM TravelCards
+	ORDER BY CardNumber
+
+-- 6. Select all colonists
+SELECT Id, FirstName + ' ' + LastName AS [Full Name], Ucn
+	FROM Colonists
+	ORDER BY FirstName, LastName, Id
+
+-- 7. Select all military journeys
+SELECT Id, FORMAT( JourneyStart, 'dd/MM/yyyy', 'en-US' ), FORMAT( JourneyEnd, 'dd/MM/yyyy', 'en-US' )
+	FROM Journeys
+	WHERE Purpose = 'Military'
+	ORDER BY JourneyStart
+
+-- 8. Select all pilots
+SELECT c.Id, FirstName + ' ' + LastName AS [Full Name]
+	FROM Colonists AS c
+	JOIN TravelCards AS tc ON tc.ColonistId = c.Id
+	WHERE tc.JobDuringJourney = 'Pilot'
+	ORDER BY c.Id
+
+-- 9. Count colonists
+SELECT COUNT(*)
+	FROM Colonists AS c
+	JOIN TravelCards AS tc ON tc.ColonistId = c.Id
+	JOIN Journeys AS j ON j.Id = tc.JourneyId
+	WHERE j.Purpose = 'Technical'
+
+-- 10. Select the fastest spaceship
+SELECT TOP(1) ss.[Name], sp.[Name]
+	FROM Spaceports as sp
+	JOIN Journeys AS j ON j.DestinationSpaceportId = sp.Id
+	JOIN Spaceships AS ss ON ss.Id = j.SpaceshipId
+	ORDER BY ss.LightSpeedRate DESC
