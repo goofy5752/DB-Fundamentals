@@ -125,3 +125,48 @@ SELECT TOP(1) ss.[Name], sp.[Name]
 	JOIN Journeys AS j ON j.DestinationSpaceportId = sp.Id
 	JOIN Spaceships AS ss ON ss.Id = j.SpaceshipId
 	ORDER BY ss.LightSpeedRate DESC
+
+-- 11. Select spaceships with pilots younger than 30 years
+SELECT s.[Name], s.Manufacturer
+	FROM Spaceships AS s
+	JOIN Journeys AS j ON j.SpaceshipId = s.Id
+	JOIN TravelCards AS tc ON tc.JourneyId = j.Id
+	JOIN Colonists AS c ON c.Id = tc.ColonistId
+	WHERE DATEDIFF(YEAR, c.BirthDate, '01/01/2019') < 30 AND tc.JobDuringJourney = 'Pilot'
+	ORDER BY s.[Name]
+
+-- 12. Select all educational mission planets and spaceports
+SELECT p.[Name] AS 'PlanetName', sp.[Name] AS 'SpaceportName'
+	FROM Planets AS p
+	JOIN Spaceports AS sp ON sp.PlanetId = p.Id
+	JOIN Journeys AS j ON j.DestinationSpaceportId = sp.Id
+	WHERE j.Purpose = 'Educational'
+	ORDER BY sp.[Name] DESC
+
+-- 13. Select all planets and their journey count
+SELECT p.[Name], COUNT(j.Id) AS 'JorneysCount' 
+	FROM Planets AS p
+	JOIN Spaceports AS sp ON sp.PlanetId = p.Id
+	JOIN Journeys AS j ON j.DestinationSpaceportId = sp.Id
+	GROUP BY p.[Name]
+	ORDER BY JorneysCount DESC, p.[Name]
+
+-- 14. Select the shortest journey
+SELECT k.Id, k.[Name] AS [PlanetName], k.SpaceportName, k.JourneyPurpose
+	FROM(
+  SELECT j.Id, p.[Name], sp.[Name] AS [SpaceportName], j.Purpose AS [JourneyPurpose],
+	 ROW_NUMBER() OVER (ORDER BY DATEDIFF(HOUR, j.JourneyStart, j.JourneyEnd)) AS RowNumber
+	 FROM Planets AS p
+	 JOIN Spaceports AS sp ON sp.PlanetId = p.Id
+	 JOIN Journeys AS j ON j.DestinationSpaceportId = sp.Id) AS k
+	 WHERE k.RowNumber = 1
+
+-- 15. Select the less popular job
+SELECT k.Id AS JourneyId, k.JobName
+	FROM(
+  SELECT j.Id, tc.JobDuringJourney AS JobName,
+	  ROW_NUMBER() OVER (ORDER BY DATEDIFF(HOUR, j.JourneyStart, j.JourneyEnd) DESC) AS RowNumber
+	  FROM Journeys AS j
+	  JOIN TravelCards AS tc ON tc.JourneyId = j.Id
+	  JOIN Colonists AS c ON c.Id = tc.ColonistId) AS k
+	  WHERE k.RowNumber = 1
