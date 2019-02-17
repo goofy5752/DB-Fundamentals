@@ -183,3 +183,10 @@ DENSE_RANK() OVER (PARTITION BY tc.JobDuringJourney ORDER BY co.Birthdate ASC) A
   JOIN Colonists AS c ON c.Id = k.ColonistId
   WHERE k.JobRank = 2
   ORDER BY k.JobDuringJourney
+
+-- 17. Planets and Spaceports
+SELECT p.[Name], COUNT(sp.PlanetId) AS 'Count'
+	FROM Planets AS p
+	LEFT JOIN Spaceports AS sp ON sp.PlanetId = p.Id
+	GROUP BY p.[Name]
+	ORDER BY [Count] DESC, p.[Name]
