@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\bin\Debug\netcoreapp2.1\Villain Names.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\bin\Debug\netcoreapp2.1\Villain Names.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\bin\Debug\netcoreapp2.1\Villain Names.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\bin\Debug\netcoreapp2.1\Villain Names.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\bin\Debug\netcoreapp2.1\Villain Names.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Villain Names\obj\Debug\netcoreapp2.1\Villain Names.pdb
