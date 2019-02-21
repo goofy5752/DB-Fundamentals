@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 namespace Villain_Names
 {
-    public class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {

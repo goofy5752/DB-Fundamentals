@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Minion Names.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Minion Names.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Minion Names.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Minion Names.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Minion Names.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Initial Setup.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\bin\Debug\netcoreapp2.1\Initial Setup.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Minion Names\obj\Debug\netcoreapp2.1\Minion Names.pdb
