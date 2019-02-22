@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Remove Villain.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Remove Villain.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Remove Villain.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Remove Villain.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Remove Villain.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Initial Setup.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\bin\Debug\netcoreapp2.1\Initial Setup.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Remove Villain\obj\Debug\netcoreapp2.1\Remove Villain.pdb

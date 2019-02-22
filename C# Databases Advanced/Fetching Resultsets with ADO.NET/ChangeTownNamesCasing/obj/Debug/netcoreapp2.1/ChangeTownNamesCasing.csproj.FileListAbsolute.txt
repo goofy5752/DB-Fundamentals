@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\ChangeTownNamesCasing.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\ChangeTownNamesCasing.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\ChangeTownNamesCasing.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\ChangeTownNamesCasing.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\ChangeTownNamesCasing.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\Initial Setup.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\bin\Debug\netcoreapp2.1\Initial Setup.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\ChangeTownNamesCasing\obj\Debug\netcoreapp2.1\ChangeTownNamesCasing.pdb
