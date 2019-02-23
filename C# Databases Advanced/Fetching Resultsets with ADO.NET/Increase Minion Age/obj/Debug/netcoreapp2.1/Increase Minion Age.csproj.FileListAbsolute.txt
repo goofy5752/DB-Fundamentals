@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Increase Minion Age.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Increase Minion Age.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Increase Minion Age.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Increase Minion Age.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Increase Minion Age.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Initial Setup.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\bin\Debug\netcoreapp2.1\Initial Setup.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Increase Minion Age\obj\Debug\netcoreapp2.1\Increase Minion Age.pdb

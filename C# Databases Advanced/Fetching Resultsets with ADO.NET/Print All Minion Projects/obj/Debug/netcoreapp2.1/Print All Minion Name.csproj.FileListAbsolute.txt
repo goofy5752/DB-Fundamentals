@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Print All Minion Name.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Print All Minion Name.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Print All Minion Name.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Print All Minion Name.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Print All Minion Name.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Initial Setup.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\bin\Debug\netcoreapp2.1\Initial Setup.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Fetching Resultsets with ADO.NET\Print All Minion Projects\obj\Debug\netcoreapp2.1\Print All Minion Name.csprojAssemblyReference.cache
