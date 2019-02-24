@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.App.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.App.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.App.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.App.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.App.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\bin\Debug\netcoreapp2.1\MiniORM.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM.App\obj\Debug\netcoreapp2.1\MiniORM.App.pdb

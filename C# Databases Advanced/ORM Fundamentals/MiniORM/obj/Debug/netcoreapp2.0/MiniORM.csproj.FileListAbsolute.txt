@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\bin\Debug\netcoreapp2.0\MiniORM.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\bin\Debug\netcoreapp2.0\MiniORM.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\bin\Debug\netcoreapp2.0\MiniORM.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\ORM Fundamentals\MiniORM\obj\Debug\netcoreapp2.0\MiniORM.pdb
