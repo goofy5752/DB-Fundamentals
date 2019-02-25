@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Database_First.Data.Models
+namespace Softuni.Models
 {
     public partial class Departments
     {

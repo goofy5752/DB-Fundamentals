@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Database_First.Data.Models
+namespace Softuni.Data
 {
     public partial class SoftUniContext : DbContext
     {
@@ -18,7 +18,7 @@ namespace Database_First.Data.Models
         public virtual DbSet<Addresses> Addresses { get; set; }
         public virtual DbSet<Departments> Departments { get; set; }
         public virtual DbSet<Employees> Employees { get; set; }
-        public virtual DbSet<EmployeesProjects> EmployeesProjects { get; set; }
+        public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; }
         public virtual DbSet<Projects> Projects { get; set; }
         public virtual DbSet<Towns> Towns { get; set; }
 
@@ -126,7 +126,7 @@ namespace Database_First.Data.Models
                     .HasConstraintName("FK_Employees_Employees");
             });
 
-            modelBuilder.Entity<EmployeesProjects>(entity =>
+            modelBuilder.Entity<EmployeeProject>(entity =>
             {
                 entity.HasKey(e => new { e.EmployeeId, e.ProjectId });
 

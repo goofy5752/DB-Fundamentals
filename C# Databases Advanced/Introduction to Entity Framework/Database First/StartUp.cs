@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Database_First
+namespace Softuni
 {
-    class Program
+    class StartUp
     {
         static void Main(string[] args)
         {
