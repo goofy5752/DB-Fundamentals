@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\bin\Debug\netcoreapp2.1\Database First.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\bin\Debug\netcoreapp2.1\Database First.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\bin\Debug\netcoreapp2.1\Database First.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\bin\Debug\netcoreapp2.1\Database First.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\bin\Debug\netcoreapp2.1\Database First.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\Database First\obj\Debug\netcoreapp2.1\Database First.pdb
