@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Softuni.Models
+namespace SoftUni.Models
 {
-    public partial class Employees
+    public partial class Employee
     {
-        public Employees()
+        public Employee()
         {
-            Departments = new HashSet<Departments>();
+            Departments = new HashSet<Department>();
             EmployeesProjects = new HashSet<EmployeeProject>();
-            InverseManager = new HashSet<Employees>();
+            InverseManager = new HashSet<Employee>();
         }
 
         public int EmployeeId { get; set; }
@@ -23,11 +23,11 @@ namespace Softuni.Models
         public decimal Salary { get; set; }
         public int? AddressId { get; set; }
 
-        public virtual Addresses Address { get; set; }
-        public virtual Departments Department { get; set; }
-        public virtual Employees Manager { get; set; }
-        public virtual ICollection<Departments> Departments { get; set; }
+        public virtual Address Address { get; set; }
+        public virtual Department Department { get; set; }
+        public virtual Employee Manager { get; set; }
+        public virtual ICollection<Department> Departments { get; set; }
         public virtual ICollection<EmployeeProject> EmployeesProjects { get; set; }
-        public virtual ICollection<Employees> InverseManager { get; set; }
+        public virtual ICollection<Employee> InverseManager { get; set; }
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Softuni.Models
+namespace SoftUni.Models
 {
-    public partial class Projects
+    public partial class Project
     {
-        public Projects()
+        public Project()
         {
             EmployeesProjects = new HashSet<EmployeeProject>();
         }

@@ -1,8 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using SoftUni.Models;
 
-namespace Softuni.Data
+namespace SoftUni.Data
 {
     public partial class SoftUniContext : DbContext
     {
@@ -15,12 +16,12 @@ namespace Softuni.Data
         {
         }
 
-        public virtual DbSet<Addresses> Addresses { get; set; }
-        public virtual DbSet<Departments> Departments { get; set; }
-        public virtual DbSet<Employees> Employees { get; set; }
+        public virtual DbSet<Address> Addresses { get; set; }
+        public virtual DbSet<Department> Departments { get; set; }
+        public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; }
-        public virtual DbSet<Projects> Projects { get; set; }
-        public virtual DbSet<Towns> Towns { get; set; }
+        public virtual DbSet<Project> Projects { get; set; }
+        public virtual DbSet<Town> Towns { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -35,7 +36,7 @@ namespace Softuni.Data
         {
             modelBuilder.HasAnnotation("ProductVersion", "2.2.0-rtm-35687");
 
-            modelBuilder.Entity<Addresses>(entity =>
+            modelBuilder.Entity<Address>(entity =>
             {
                 entity.HasKey(e => e.AddressId);
 
@@ -54,7 +55,7 @@ namespace Softuni.Data
                     .HasConstraintName("FK_Addresses_Towns");
             });
 
-            modelBuilder.Entity<Departments>(entity =>
+            modelBuilder.Entity<Department>(entity =>
             {
                 entity.HasKey(e => e.DepartmentId);
 
@@ -74,7 +75,7 @@ namespace Softuni.Data
                     .HasConstraintName("FK_Departments_Employees");
             });
 
-            modelBuilder.Entity<Employees>(entity =>
+            modelBuilder.Entity<Employee>(entity =>
             {
                 entity.HasKey(e => e.EmployeeId);
 
@@ -147,7 +148,7 @@ namespace Softuni.Data
                     .HasConstraintName("FK_EmployeesProjects_Projects");
             });
 
-            modelBuilder.Entity<Projects>(entity =>
+            modelBuilder.Entity<Project>(entity =>
             {
                 entity.HasKey(e => e.ProjectId);
 
@@ -165,7 +166,7 @@ namespace Softuni.Data
                 entity.Property(e => e.StartDate).HasColumnType("smalldatetime");
             });
 
-            modelBuilder.Entity<Towns>(entity =>
+            modelBuilder.Entity<Town>(entity =>
             {
                 entity.HasKey(e => e.TownId);
 

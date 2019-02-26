@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\bin\Debug\netcoreapp2.1\SoftUni.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\bin\Debug\netcoreapp2.1\SoftUni.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\bin\Debug\netcoreapp2.1\SoftUni.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\bin\Debug\netcoreapp2.1\SoftUni.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\obj\Debug\netcoreapp2.1\SoftUni.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\obj\Debug\netcoreapp2.1\SoftUni.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\obj\Debug\netcoreapp2.1\SoftUni.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\bin\Debug\netcoreapp2.1\SoftUni.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\obj\Debug\netcoreapp2.1\SoftUni.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Introduction to Entity Framework\SoftUni\obj\Debug\netcoreapp2.1\SoftUni.pdb

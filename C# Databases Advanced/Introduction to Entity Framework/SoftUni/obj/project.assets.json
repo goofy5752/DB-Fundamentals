@@ -3474,11 +3474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\Database First\\Database First.csproj",
-      "projectName": "Database First",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\Database First\\Database First.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\SoftUni\\SoftUni.csproj",
+      "projectName": "SoftUni",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\SoftUni\\SoftUni.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\Database First\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Introduction to Entity Framework\\SoftUni\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
