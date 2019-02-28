@@ -13,11 +13,11 @@ namespace SoftUni
         {
             using (var context = new SoftUniContext())
             {
-                var employeeInfo = GetEmployeesInPeriod(context);
+                var employeeInfo = GetLatestProjects(context);
                 Console.WriteLine(employeeInfo);
             }
         }
-
+        // 3.	Employees Full Information
         public static string GetEmployeesFullInformation(SoftUniContext context)
         {
             StringBuilder sb = new StringBuilder();
@@ -30,6 +30,7 @@ namespace SoftUni
             return sb.ToString().TrimEnd();
         }
 
+        // 4.	Employees with Salary Over 50 000
         public static string GetEmployeesWithSalaryOver50000(SoftUniContext context)
         {
             var sb = new StringBuilder();
@@ -42,6 +43,7 @@ namespace SoftUni
             return sb.ToString().TrimEnd();
         }
 
+        // 5.	Employees from Research and Development
         public static string GetEmployeesFromResearchAndDevelopment(SoftUniContext context)
         {
             var sb = new StringBuilder();
@@ -54,6 +56,7 @@ namespace SoftUni
             return sb.ToString().TrimEnd();
         }
 
+        // 6.	Adding a New Address and Updating Employee
         public static string AddNewAddressToEmployee(SoftUniContext context)
         {
             var address = new Address();
@@ -82,6 +85,7 @@ namespace SoftUni
             return sb.ToString().TrimEnd();
         }
 
+        // 7.	Employees and Projects
         public static string GetEmployeesInPeriod(SoftUniContext context)
         {
             StringBuilder builder = new StringBuilder();
@@ -103,6 +107,7 @@ namespace SoftUni
                             ProjectName = y.Project.Name,
                             StartDate = y.Project.StartDate,
                             EndDate = y.Project.EndDate
+
                         })
 
                 })
@@ -129,6 +134,137 @@ namespace SoftUni
             }
 
             return builder.ToString();
+        }
+
+        // 8.	Addresses by Town
+        public static string GetAddressesByTown(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var addressInfo = context.Addresses
+                .Where(x => x.Employees.Any())
+                .Select(x => new
+                {
+                    x.AddressText,
+                    TownName = x.Town.Name,
+                    EmployeeCount = x.Employees.Count
+                }
+                ).ToList()
+                .OrderByDescending(x => x.EmployeeCount)
+                .ThenBy(x => x.TownName)
+                .ThenBy(x => x.AddressText)
+                .Take(10)
+                .ToList();
+
+            foreach (var address in addressInfo)
+            {
+                sb.AppendLine($"{address.AddressText}, {address.TownName} - {address.EmployeeCount} employees");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 9.	Employee 147
+        public static string GetEmployee147(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var neededEmployee = context.Employees
+                .Where(e => e.EmployeeId == 147)
+                .Select(x => new
+                {
+                    x.FirstName,
+                    x.LastName,
+                    x.JobTitle,
+                    Projects = x.EmployeesProjects
+                    .Select(y => new
+                    {
+                        ProjectName = y.Project.Name
+                    })
+                    .OrderBy(p => p.ProjectName)
+                    .ToList()
+                })
+                .ToList();
+
+            foreach (var employee in neededEmployee)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
+                foreach (var projects in employee.Projects)
+                {
+                    sb.AppendLine($"{projects.ProjectName}");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 10.	Departments with More Than 5 Employees
+        public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var contextInfo = context.Departments
+                .Where(x => x.Employees.Count > 5)
+                .Select(d => new
+                {
+                    d.Name,
+                    ManagerFullName = d.Manager.FirstName + " " + d.Manager.LastName,
+                    Employee = d.Employees.Select(e => new
+                    {
+                        FullName = e.FirstName + " " + e.LastName,
+                        e.JobTitle
+                    })
+                    .OrderBy(x => x.JobTitle)
+                    .ToList()
+                })
+                .OrderBy(x => x.Employee.Count)
+                .ToList();
+
+            foreach (var info in contextInfo)
+            {
+                sb.AppendLine($"{info.Name} – {info.ManagerFullName}");
+                foreach (var employee in info.Employee)
+                {
+                    sb.AppendLine($"{employee.FullName} - {employee.JobTitle}");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 11.	Find Latest 10 Projects
+        public static string GetLatestProjects(SoftUniContext context)
+        {
+            string dateFormat = "M/d/yyyy h:mm:ss tt";
+
+            var sb = new StringBuilder();
+
+            var latestProjects = context.Projects
+                .OrderBy(x => x.Name)
+                .ThenByDescending(x => x.StartDate)
+                .Select(x => new
+                {
+                    x.Name,
+                    x.Description,
+                    StartDate = x.StartDate.ToString(dateFormat, CultureInfo.InvariantCulture)
+                })
+                .Take(10)
+                .ToList();
+
+            foreach (var p in latestProjects)
+            {
+                sb.AppendLine(p.Name);
+                sb.AppendLine(p.Description);
+                sb.AppendLine(p.StartDate);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 12.	Increase Salaries
+        public static string IncreaseSalaries(SoftUniContext context)
+        {
+            return null;
         }
     }
 }
