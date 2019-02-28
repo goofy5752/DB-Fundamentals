@@ -23,11 +23,11 @@ namespace SoftUni.Models
         public decimal Salary { get; set; }
         public int? AddressId { get; set; }
 
-        public virtual Address Address { get; set; }
-        public virtual Department Department { get; set; }
-        public virtual Employee Manager { get; set; }
-        public virtual ICollection<Department> Departments { get; set; }
-        public virtual ICollection<EmployeeProject> EmployeesProjects { get; set; }
-        public virtual ICollection<Employee> InverseManager { get; set; }
+        public Address Address { get; set; }
+        public Department Department { get; set; }
+        public Employee Manager { get; set; }
+        public ICollection<Department> Departments { get; set; }
+        public ICollection<EmployeeProject> EmployeesProjects { get; set; }
+        public ICollection<Employee> InverseManager { get; set; }
     }
 }

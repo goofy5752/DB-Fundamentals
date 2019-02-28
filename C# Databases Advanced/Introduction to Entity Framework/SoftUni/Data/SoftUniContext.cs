@@ -16,12 +16,12 @@ namespace SoftUni.Data
         {
         }
 
-        public virtual DbSet<Address> Addresses { get; set; }
-        public virtual DbSet<Department> Departments { get; set; }
-        public virtual DbSet<Employee> Employees { get; set; }
-        public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; }
-        public virtual DbSet<Project> Projects { get; set; }
-        public virtual DbSet<Town> Towns { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<EmployeeProject> EmployeesProjects { get; set; }
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<Town> Towns { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
