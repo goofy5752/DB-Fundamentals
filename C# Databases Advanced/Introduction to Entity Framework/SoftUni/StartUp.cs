@@ -13,7 +13,7 @@ namespace SoftUni
         {
             using (var context = new SoftUniContext())
             {
-                var employeeInfo = GetLatestProjects(context);
+                var employeeInfo = RemoveTown(context);
                 Console.WriteLine(employeeInfo);
             }
         }
@@ -264,7 +264,113 @@ namespace SoftUni
         // 12.	Increase Salaries
         public static string IncreaseSalaries(SoftUniContext context)
         {
-            return null;
+            var sb = new StringBuilder();
+
+            var employeesToIncrease = context.Employees
+                .Where(x => x.Department.Name == "Engineering" ||
+                            x.Department.Name == "Marketing" ||
+                            x.Department.Name == "Tool Design" ||
+                            x.Department.Name == "Information Services")
+                .OrderBy(x => x.FirstName)
+                .ThenBy(x => x.LastName)
+                .ToList();
+
+            foreach (var item in employeesToIncrease)
+            {
+                item.Salary *= 1.12m;
+            }
+
+            foreach (var e in employeesToIncrease)
+            {
+                sb.AppendLine($"{e.FirstName} {e.LastName} (${e.Salary:F2})");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 13.	Find Employees by First Name Starting With "Sa"
+        public static string GetEmployeesByFirstNameStartingWithSa(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var employees = context.Employees
+                .Where(x => x.FirstName.StartsWith("Sa"))
+                .Select(e => new
+                {
+                    FullName = e.FirstName + " " + e.LastName,
+                    e.JobTitle,
+                    e.Salary
+                })
+                .OrderBy(x => x.FullName)
+                .ToList();
+
+            foreach (var e in employees)
+            {
+                sb.AppendLine($"{e.FullName} - {e.JobTitle} - (${e.Salary:F2})");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 14.	Delete Project by Id
+        public static string DeleteProjectById(SoftUniContext context)
+        {
+            var sb = new StringBuilder();
+
+            var project = context.Projects.FirstOrDefault(x => x.ProjectId == 2);
+
+            var employeeProjects = context.EmployeesProjects
+                .Where(x => x.ProjectId == 2)
+                .ToList();
+
+            foreach (var proj in employeeProjects)
+            {
+                context.EmployeesProjects.Remove(proj);
+            }
+
+            context.Projects.Remove(project);
+
+            context.SaveChanges();
+
+            foreach (var em in context.Projects)
+            {
+                sb.AppendLine($"{em.Name}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        // 15.	Remove Town
+        public static string RemoveTown(SoftUniContext context)
+        {
+            int count = 0;
+
+            var setAddressIdNull = context.Employees
+                .Where(x => x.Address.Town.Name == "Seattle")
+                .ToList();
+
+            foreach (var employee in setAddressIdNull)
+            {
+                employee.AddressId = null;
+            }
+
+            var getGivenTownAddresses = context.Addresses
+                .Where(x => x.Town.Name == "Seatle")
+                .ToList();
+
+            foreach (var address in getGivenTownAddresses)
+            {
+                context.Addresses.Remove(address);
+                count++;
+            }
+
+            var townToRemove = context.Towns.FirstOrDefault(t => t.Name == "Seattle");
+
+            context.Towns.Remove(townToRemove);
+
+            context.SaveChanges();
+
+            return $"{count} addresses in Seattle were deleted";
         }
     }
 }
