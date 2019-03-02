@@ -17,6 +17,7 @@ namespace SoftUni
                 Console.WriteLine(employeeInfo);
             }
         }
+
         // 3.	Employees Full Information
         public static string GetEmployeesFullInformation(SoftUniContext context)
         {
@@ -235,29 +236,30 @@ namespace SoftUni
         // 11.	Find Latest 10 Projects
         public static string GetLatestProjects(SoftUniContext context)
         {
-            StringBuilder builder = new StringBuilder();
-            string dateFormat = @"M/d/yyyy h:mm:ss tt";
+            string dateFormat = "M/d/yyyy h:mm:ss tt";
 
-            context.Projects
+            var sb = new StringBuilder();
+
+            var latestProjects = context.Projects
                 .OrderBy(x => x.Name)
                 .ThenByDescending(x => x.StartDate)
                 .Select(x => new
                 {
-                    Name = x.Name,
-                    Description = x.Description,
-                    StartDate = x.StartDate
+                    x.Name,
+                    x.Description,
+                    StartDate = x.StartDate.ToString(dateFormat, CultureInfo.InvariantCulture)
                 })
                 .Take(10)
-                .ToList()
-                .ForEach(x =>
-                {
-                    builder.AppendLine(x.Name);
-                    builder.AppendLine(x.Description);
-                    builder.AppendLine(x.StartDate.ToString(dateFormat, CultureInfo.InvariantCulture));
-                });
+                .ToList();
 
+            foreach (var p in latestProjects)
+            {
+                sb.AppendLine(p.Name);
+                sb.AppendLine(p.Description);
+                sb.AppendLine(p.StartDate);
+            }
 
-            return builder.ToString();
+            return sb.ToString().TrimEnd();
         }
 
         // 12.	Increase Salaries
