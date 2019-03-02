@@ -235,30 +235,29 @@ namespace SoftUni
         // 11.	Find Latest 10 Projects
         public static string GetLatestProjects(SoftUniContext context)
         {
-            string dateFormat = "M/d/yyyy h:mm:ss tt";
+            StringBuilder builder = new StringBuilder();
+            string dateFormat = @"M/d/yyyy h:mm:ss tt";
 
-            var sb = new StringBuilder();
-
-            var latestProjects = context.Projects
+            context.Projects
                 .OrderBy(x => x.Name)
                 .ThenByDescending(x => x.StartDate)
                 .Select(x => new
                 {
-                    x.Name,
-                    x.Description,
-                    StartDate = x.StartDate.ToString(dateFormat, CultureInfo.InvariantCulture)
+                    Name = x.Name,
+                    Description = x.Description,
+                    StartDate = x.StartDate
                 })
                 .Take(10)
-                .ToList();
+                .ToList()
+                .ForEach(x =>
+                {
+                    builder.AppendLine(x.Name);
+                    builder.AppendLine(x.Description);
+                    builder.AppendLine(x.StartDate.ToString(dateFormat, CultureInfo.InvariantCulture));
+                });
 
-            foreach (var p in latestProjects)
-            {
-                sb.AppendLine(p.Name);
-                sb.AppendLine(p.Description);
-                sb.AppendLine(p.StartDate);
-            }
 
-            return sb.ToString().TrimEnd();
+            return builder.ToString();
         }
 
         // 12.	Increase Salaries
@@ -343,34 +342,33 @@ namespace SoftUni
         // 15.	Remove Town
         public static string RemoveTown(SoftUniContext context)
         {
-            int count = 0;
+            StringBuilder builder = new StringBuilder();
 
-            var setAddressIdNull = context.Employees
+            var empMod = context.Employees
                 .Where(x => x.Address.Town.Name == "Seattle")
                 .ToList();
 
-            foreach (var employee in setAddressIdNull)
-            {
-                employee.AddressId = null;
-            }
-
-            var getGivenTownAddresses = context.Addresses
-                .Where(x => x.Town.Name == "Seatle")
+            var addresses = context.Addresses
+                .Where(x => x.Town.Name == "Seattle")
                 .ToList();
 
-            foreach (var address in getGivenTownAddresses)
-            {
-                context.Addresses.Remove(address);
-                count++;
-            }
+            var empAddresses = context.Employees
+                .Select(x => x.Address)
+                .ToList();
 
-            var townToRemove = context.Towns.FirstOrDefault(t => t.Name == "Seattle");
+            empMod.ForEach(x => x.AddressId = null);
 
-            context.Towns.Remove(townToRemove);
+
+            builder.AppendLine($"{addresses.Count} addresses in Seattle were deleted");
+
+            addresses.ForEach(x => x.TownId = null);
+
+            var town = context.Towns.FirstOrDefault(x => x.Name == "Seattle");
+            context.Towns.Remove(town);
 
             context.SaveChanges();
 
-            return $"{count} addresses in Seattle were deleted";
+            return builder.ToString().TrimEnd();
         }
     }
 }
