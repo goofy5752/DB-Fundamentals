@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.pdb

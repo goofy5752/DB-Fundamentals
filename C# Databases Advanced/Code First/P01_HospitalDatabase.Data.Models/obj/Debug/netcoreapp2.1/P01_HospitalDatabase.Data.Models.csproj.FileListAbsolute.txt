@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
