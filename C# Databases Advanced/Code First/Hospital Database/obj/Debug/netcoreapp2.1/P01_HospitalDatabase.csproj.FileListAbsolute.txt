@@ -8,3 +8,4 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\Hospital Database\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.AssemblyInfo.cs
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\Hospital Database\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\Hospital Database\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Code First\Hospital Database\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.csprojAssemblyReference.cache

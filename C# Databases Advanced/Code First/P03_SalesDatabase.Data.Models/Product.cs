@@ -7,6 +7,7 @@ namespace P03_SalesDatabase.Data.Models
         public Product()
         {
             this.Sales = new HashSet<Sale>();
+            this.Description = "No description";
         }
 
         public int ProductId { get; set; }
@@ -16,6 +17,8 @@ namespace P03_SalesDatabase.Data.Models
         public double Quantity { get; set; }
 
         public decimal Price { get; set; }
+
+        public string Description { get; set; }
 
         public ICollection<Sale> Sales { get; set; }
     }
