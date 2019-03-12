@@ -1,11 +1,8 @@
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.deps.json
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.pdb
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.AssemblyInfo.cs
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.runtimeconfig.json
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.runtimeconfig.dev.json
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\bin\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.pdb
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem.Data.Models\obj\Debug\netcoreapp2.1\P01_StudentSystem.Data.Models.pdb

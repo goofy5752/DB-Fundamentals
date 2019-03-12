@@ -1,23 +1,30 @@
 ﻿namespace P01_StudentSystem.Data.Models
 {
     using System;
+    using System.Collections.Generic;
 
     public class Student
     {
-        public Student(string name)
+        public Student()
         {
-            this.Name = name;
             this.RegisteredOn = DateTime.Now;
+
+            this.HomeworkSubmissions = new List<Homework>();
+            this.CourseEnrollments = new List<StudentCourse>();
         }
 
         public int StudentId { get; set; }
 
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
         public string PhoneNumber { get; set; }
 
-        public DateTime RegisteredOn { get; private set; }
+        public DateTime RegisteredOn { get; set; }
 
         public DateTime? Birthday { get; set; }
+
+        public ICollection<Homework> HomeworkSubmissions { get; set; }
+
+        public ICollection<StudentCourse> CourseEnrollments { get; set; }
     }
 }
