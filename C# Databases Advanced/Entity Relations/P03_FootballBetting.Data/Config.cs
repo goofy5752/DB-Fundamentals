@@ -4,7 +4,8 @@ using System.Text;
 
 namespace P03_FootballBetting.Data
 {
-    class Config
+    public class Config
     {
+        public const string SqlConnect = @"Server=DESKTOP-58UASJ8\SQLEXPRESS;Database=Sales;Integrated Security = True";
     }
 }
