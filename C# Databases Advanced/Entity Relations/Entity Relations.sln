@@ -5,11 +5,19 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Student System", "Student System", "{3D5F1EAC-8F11-4558-B937-7433DADE0EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem", "P01_StudentSystem\P01_StudentSystem.csproj", "{DF6D780E-A3C4-4773-A2D5-32D3E78DD978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem", "P01_StudentSystem\P01_StudentSystem.csproj", "{DF6D780E-A3C4-4773-A2D5-32D3E78DD978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data", "P01_StudentSystem.Data\P01_StudentSystem.Data.csproj", "{B59B80C0-BA8D-4537-9A1A-DF67754A39D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data", "P01_StudentSystem.Data\P01_StudentSystem.Data.csproj", "{B59B80C0-BA8D-4537-9A1A-DF67754A39D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data.Models", "P01_StudentSystem.Data.Models\P01_StudentSystem.Data.Models.csproj", "{DDE85672-B122-4D4A-A506-D7102944044C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_StudentSystem.Data.Models", "P01_StudentSystem.Data.Models\P01_StudentSystem.Data.Models.csproj", "{DDE85672-B122-4D4A-A506-D7102944044C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Football Betting", "Football Betting", "{6D26C3C6-4EF3-4F37-9662-B167CB13D43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting", "P03_FootballBetting\P03_FootballBetting.csproj", "{4563E79A-569F-4F9C-AA64-505251A10729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting.Data", "P03_FootballBetting.Data\P03_FootballBetting.Data.csproj", "{DDE5349C-583D-4421-97F2-83541C42A0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_FootballBetting.Data.Models", "P03_FootballBetting.Data.Models\P03_FootballBetting.Data.Models.csproj", "{A9D991E0-E208-4A5E-B82C-40223BCD34E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +37,18 @@ Global
 		{DDE85672-B122-4D4A-A506-D7102944044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE85672-B122-4D4A-A506-D7102944044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE85672-B122-4D4A-A506-D7102944044C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4563E79A-569F-4F9C-AA64-505251A10729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4563E79A-569F-4F9C-AA64-505251A10729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4563E79A-569F-4F9C-AA64-505251A10729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4563E79A-569F-4F9C-AA64-505251A10729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE5349C-583D-4421-97F2-83541C42A0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5349C-583D-4421-97F2-83541C42A0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5349C-583D-4421-97F2-83541C42A0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5349C-583D-4421-97F2-83541C42A0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D991E0-E208-4A5E-B82C-40223BCD34E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D991E0-E208-4A5E-B82C-40223BCD34E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D991E0-E208-4A5E-B82C-40223BCD34E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D991E0-E208-4A5E-B82C-40223BCD34E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +57,9 @@ Global
 		{DF6D780E-A3C4-4773-A2D5-32D3E78DD978} = {3D5F1EAC-8F11-4558-B937-7433DADE0EC1}
 		{B59B80C0-BA8D-4537-9A1A-DF67754A39D8} = {3D5F1EAC-8F11-4558-B937-7433DADE0EC1}
 		{DDE85672-B122-4D4A-A506-D7102944044C} = {3D5F1EAC-8F11-4558-B937-7433DADE0EC1}
+		{4563E79A-569F-4F9C-AA64-505251A10729} = {6D26C3C6-4EF3-4F37-9662-B167CB13D43D}
+		{DDE5349C-583D-4421-97F2-83541C42A0D8} = {6D26C3C6-4EF3-4F37-9662-B167CB13D43D}
+		{A9D991E0-E208-4A5E-B82C-40223BCD34E5} = {6D26C3C6-4EF3-4F37-9662-B167CB13D43D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66A037EB-F425-4888-BDCF-4BFE618F8C0C}
