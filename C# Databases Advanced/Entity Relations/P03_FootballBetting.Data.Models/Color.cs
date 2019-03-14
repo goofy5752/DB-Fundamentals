@@ -6,17 +6,17 @@ namespace P03_FootballBetting.Data.Models
     {
         public Color()
         {
-            this.HomeTeam = new List<Team>();
+            this.PrimaryKitTeams = new List<Team>();
 
-            this.AwayTeam = new List<Team>();
+            this.SecondaryKitTeams = new List<Team>();
         }
 
         public int ColorId { get; set; }
 
         public string Name { get; set; }
 
-        public ICollection<Team> HomeTeam { get; set; }
+        public ICollection<Team> PrimaryKitTeams { get; set; }
 
-        public ICollection<Team> AwayTeam { get; set; }
+        public ICollection<Team> SecondaryKitTeams { get; set; }
     }
 }

@@ -15,6 +15,8 @@ namespace P03_FootballBetting.Data.Models
 
         public string Name { get; set; }
 
+        public string LogoUrl { get; set; }
+
         public string Initials { get; set; }
 
         public decimal Budget { get; set; }

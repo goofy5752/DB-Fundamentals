@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace P03_FootballBetting.Data.Models
@@ -8,7 +9,7 @@ namespace P03_FootballBetting.Data.Models
     {
         public Game()
         {
-            this.Statistics = new List<PlayerStatistic>();
+            this.PlayerStatistics = new List<PlayerStatistic>();
             this.Bets = new List<Bet>();
             this.Result = $"{this.HomeTeamGoals}:{this.AwayTeamGoals}";
         }
@@ -16,9 +17,11 @@ namespace P03_FootballBetting.Data.Models
         public int GameId { get; set; }
 
         public int HomeTeamId { get; set; }
+        [NotMapped]
         public Team HomeTeam { get; set; }
 
         public int AwayTeamId { get; set; }
+        [NotMapped]
         public Team AwayTeam { get; set; }
 
         public int HomeTeamGoals { get; set; }
@@ -35,7 +38,7 @@ namespace P03_FootballBetting.Data.Models
 
         public string Result { get; set; }
 
-        public ICollection<PlayerStatistic> Statistics { get; set; }
+        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
 
         public ICollection<Bet> Bets { get; set; }
     }

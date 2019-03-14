@@ -1,9 +1,0 @@
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.deps.json
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.dll
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\bin\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.pdb
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.AssemblyInfoInputs.cache
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.AssemblyInfo.cs
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.dll
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P03_FootballBetting.Data.Models\obj\Debug\netcoreapp2.1\P03_FootballBetting.Data.Models.pdb

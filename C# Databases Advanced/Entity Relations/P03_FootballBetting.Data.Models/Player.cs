@@ -6,7 +6,7 @@ namespace P03_FootballBetting.Data.Models
     {
         public Player()
         {
-            this.Statistics = new List<PlayerStatistic>();
+            this.PlayerStatistics = new List<PlayerStatistic>();
         }
 
         public int PlayerId { get; set; }
@@ -23,6 +23,6 @@ namespace P03_FootballBetting.Data.Models
 
         public bool IsInjured { get; set; }
 
-        public ICollection<PlayerStatistic> Statistics { get; set; }
+        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
     }
 }

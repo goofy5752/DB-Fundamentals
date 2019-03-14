@@ -8,4 +8,3 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem\obj\Debug\netcoreapp2.1\P01_StudentSystem.AssemblyInfo.cs
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem\obj\Debug\netcoreapp2.1\P01_StudentSystem.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem\obj\Debug\netcoreapp2.1\P01_StudentSystem.pdb
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Entity Relations\P01_StudentSystem\obj\Debug\netcoreapp2.1\P01_StudentSystem.csprojAssemblyReference.cache
