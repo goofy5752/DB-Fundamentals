@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Programming\\source\\Advanced Relations\\BillsPaymentSystem.Models\\BillsPaymentSystem.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Advanced Relations\\BillsPaymentSystem.Models\\BillsPaymentSystem.Models.csproj",
       "projectName": "BillsPaymentSystem.Models",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Programming\\source\\Advanced Relations\\BillsPaymentSystem.Models\\BillsPaymentSystem.Models.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Advanced Relations\\BillsPaymentSystem.Models\\BillsPaymentSystem.Models.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Programming\\source\\Advanced Relations\\BillsPaymentSystem.Models\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\Programming\\Software University\\DB-Fundamentals\\C# Databases Advanced\\Advanced Relations\\BillsPaymentSystem.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
