@@ -6,7 +6,7 @@ namespace BillsPaymentSystem.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
