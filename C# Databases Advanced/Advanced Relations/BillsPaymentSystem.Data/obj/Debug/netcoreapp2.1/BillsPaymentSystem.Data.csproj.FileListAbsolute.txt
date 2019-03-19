@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.deps.json
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.dll
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.pdb
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.dll
+C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.pdb
