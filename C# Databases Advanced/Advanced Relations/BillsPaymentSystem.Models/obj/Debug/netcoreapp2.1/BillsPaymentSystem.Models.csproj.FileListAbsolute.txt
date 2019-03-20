@@ -9,9 +9,11 @@ C:\Users\Admin\Desktop\Programming\source\Advanced Relations\BillsPaymentSystem.
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.deps.json
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.pdb
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.AssemblyInfo.cs
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Models\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Models.csprojAssemblyReference.cache

@@ -18,3 +18,5 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.pdb
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.csproj.CopyComplete
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.runtimeconfig.dev.json

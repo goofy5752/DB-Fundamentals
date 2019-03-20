@@ -19,3 +19,8 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\obj\Debug\netcoreapp2.1\BillsPaymentSystem.App.AssemblyInfo.cs
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\obj\Debug\netcoreapp2.1\BillsPaymentSystem.App.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\obj\Debug\netcoreapp2.1\BillsPaymentSystem.App.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Advanced Relations\BillsPaymentSystem.App\obj\Debug\netcoreapp2.1\BillsPaymentSystem.App.csproj.CopyComplete
