@@ -181,13 +181,14 @@
                 .OrderByDescending(u => u.ProductsSold.Count(ps => ps.Buyer != null))
                 .Select(u => new
                 {
+                    firstName = u.FirstName,
                     lastName = u.LastName,
                     age = u.Age,
                     soldProducts = new
                     {
                         count = u.ProductsSold
                         .Count(ps => ps.Buyer != null),
-                        Products = u.ProductsSold
+                        products = u.ProductsSold
                         .Where(ps => ps.Buyer != null)
                         .Select(ps => new
                         {
