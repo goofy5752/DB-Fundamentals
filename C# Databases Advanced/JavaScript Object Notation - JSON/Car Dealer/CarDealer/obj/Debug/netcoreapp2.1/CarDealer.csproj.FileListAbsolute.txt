@@ -9,7 +9,6 @@ C:\Users\Stoyan\Desktop\Car Dealer - Skeleton\CarDealer\obj\Debug\netcoreapp2.1\
 C:\Users\Stoyan\Desktop\Car Dealer - Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfo.cs
 C:\Users\Stoyan\Desktop\Car Dealer - Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.dll
 C:\Users\Stoyan\Desktop\Car Dealer - Skeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.pdb
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfo.cs
@@ -20,3 +19,4 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.runtimeconfig.dev.json
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\JavaScript Object Notation - JSON\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csprojAssemblyReference.cache
