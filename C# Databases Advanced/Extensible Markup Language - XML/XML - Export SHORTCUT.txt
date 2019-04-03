@@ -1,0 +1,25 @@
+var productsInRange = context
+                .Products
+                .Where(p => p.Price >= 500 && p.Price <= 1000)
+                .Select(p => new ExportProductsInRangeDto()
+                {
+                    Name = p.Name,
+                    Price = p.Price,
+                    Buyer = p.Buyer.FirstName + " " + p.Buyer.LastName
+                })
+                .OrderBy(p => p.Price)
+                .Take(10)
+                .ToArray();
+
+            var xml = new XmlSerializer(typeof(ExportProductsInRangeDto[]), new XmlRootAttribute("Products"));
+
+            var sb = new StringBuilder();
+
+            var namespaces = new XmlSerializerNamespaces(new[]
+            {
+                new XmlQualifiedName("", "")
+            });
+
+            xml.Serialize(new StringWriter(sb), productsInRange, namespaces);
+
+            return sb.ToString().TrimEnd();

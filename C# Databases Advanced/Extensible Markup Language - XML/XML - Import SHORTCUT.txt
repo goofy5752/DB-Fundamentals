@@ -1,0 +1,17 @@
+XmlSerializer xml = new XmlSerializer(typeof(ImportUserDto[]), new XmlRootAttribute("Users"));
+
+            var usersDto = (ImportUserDto[])xml.Deserialize(new StringReader(inputXml));
+
+            var usersList = new List<User>();
+
+            foreach (var user in usersDto)
+            {
+                var userToAdd = Mapper.Map<User>(user);
+
+                usersList.Add(userToAdd);
+            }
+
+            context.Users.AddRange(usersList);
+            context.SaveChanges();
+
+            return $"Successfully imported {usersList.Count}";
