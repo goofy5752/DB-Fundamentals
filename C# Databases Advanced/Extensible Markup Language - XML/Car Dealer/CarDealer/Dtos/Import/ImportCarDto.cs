@@ -19,6 +19,6 @@ namespace CarDealer.Dtos.Import
         public long TraveledDistance { get; set; }
 
         [XmlArray("parts")]
-        public HashSet<int> Parts { get; set; }
+        public ImportCarPartsDto[] Parts { get; set; }
     }
 }

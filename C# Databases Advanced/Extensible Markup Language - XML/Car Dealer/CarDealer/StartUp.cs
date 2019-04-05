@@ -22,7 +22,7 @@ namespace CarDealer
                 x.AddProfile<CarDealerProfile>();
             });
 
-            var xml = File.ReadAllText(@"C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\Datasets\sales.xml");
+            var xml = File.ReadAllText(@"C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\Datasets\cars.xml");
 
             using (var context = new CarDealerContext())
             {
@@ -81,29 +81,45 @@ namespace CarDealer
 
         public static string ImportCars(CarDealerContext context, string inputXml)
         {
-            XmlSerializer xml = new XmlSerializer(typeof(ImportCarDto[]), new XmlRootAttribute("Cars"));
+            XmlSerializer serializer = new XmlSerializer(typeof(ImportCarDto[]), new XmlRootAttribute("Cars"));
 
-            var carsDto = (ImportCarDto[])xml.Deserialize(new StringReader(inputXml));
+            var carsDto = (ImportCarDto[])serializer.Deserialize(new StringReader(inputXml));
 
             var cars = new List<Car>();
+            var partsCar = new List<PartCar>();
 
-            var partIds = context.Parts.Select(p => p.Id).ToList();
+            var partsCount = context.Parts.Count();
 
-            foreach (var car in carsDto)
+            foreach (var carDto in carsDto)
             {
-                foreach (var part in car.Parts)
+                var car = new Car()
                 {
-                    if (partIds.Contains(part))
+                    Make = carDto.Make,
+                    Model = carDto.Model,
+                    TravelledDistance = carDto.TraveledDistance
+                };
+
+                var currentPartsIds = carDto.Parts.Select(x => x.Id).Distinct().ToArray();
+
+                foreach (var partId in currentPartsIds)
+                {
+                    if (partId <= partsCount)
                     {
-                        car.Parts.Add(part);
+                        partsCar.Add(new PartCar()
+                        {
+                            Car = car,
+                            PartId = partId
+                        });
                     }
                 }
-                var carsToAdd = Mapper.Map<Car>(car);
 
-                cars.Add(carsToAdd);
+                cars.Add(car);
             }
 
             context.Cars.AddRange(cars);
+            context.SaveChanges();
+
+            context.PartCars.AddRange(partsCar);
             context.SaveChanges();
 
             return $"Successfully imported {cars.Count}";
@@ -320,16 +336,18 @@ namespace CarDealer
         {
             var salesWithDiscount = context
                 .Sales
-                .Where(s => s.Car != null && s.Customer != null)
                 .Select(s => new ExportSaleWithAppliedDiscountDto()
                 {
-                    Make = s.Car.Make,
-                    Model = s.Car.Model,
-                    TravelledDistance = s.Car.TravelledDistance,
+                    Car = new ExportCarDto()
+                    {
+                        Make = s.Car.Make,
+                        Model = s.Car.Model,
+                        TravelledDistance = s.Car.TravelledDistance
+                    },
                     Discount = s.Discount,
                     CustomerName = s.Customer.Name,
                     Price = s.Car.PartCars.Sum(pc => pc.Part.Price),
-                    PriceWithDiscount = s.Car.PartCars.Sum(pc => pc.Part.Price) - (s.Car.PartCars.Sum(pc => pc.Part.Price) * (s.Discount / 100))
+                    PriceWithDiscount = s.Car.PartCars.Sum(pc => pc.Part.Price) - (s.Car.PartCars.Sum(pc => pc.Part.Price) * s.Discount / 100)
                 })
                 .ToArray();
 

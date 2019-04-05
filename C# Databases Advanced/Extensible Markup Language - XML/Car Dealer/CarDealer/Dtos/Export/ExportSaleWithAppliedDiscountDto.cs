@@ -8,14 +8,8 @@ namespace CarDealer.Dtos.Export
     [XmlType("sale")]
     public class ExportSaleWithAppliedDiscountDto
     {
-        [XmlAttribute("make")]
-        public string Make { get; set; }
-
-        [XmlAttribute("model")]
-        public string Model { get; set; }
-
-        [XmlAttribute("travelled-distance")]
-        public long TravelledDistance { get; set; }
+        [XmlElement("car")]
+        public ExportCarDto Car { get; set; }
 
         [XmlElement("discount")]
         public decimal Discount { get; set; }
@@ -27,6 +21,6 @@ namespace CarDealer.Dtos.Export
         public decimal Price { get; set; }
 
         [XmlElement("price-with-discount")]
-        public string PriceWithDiscount { get; set; }
+        public decimal PriceWithDiscount { get; set; }
     }
 }
