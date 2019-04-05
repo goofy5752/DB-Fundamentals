@@ -1,17 +1,17 @@
-XmlSerializer xml = new XmlSerializer(typeof(ImportUserDto[]), new XmlRootAttribute("Users"));
+XmlSerializer xml = new XmlSerializer(typeof(ImportSaleDto[]), new XmlRootAttribute("Sales"));
 
-            var usersDto = (ImportUserDto[])xml.Deserialize(new StringReader(inputXml));
+            var salesDto = (ImportSaleDto[])xml.Deserialize(new StringReader(inputXml));
 
-            var usersList = new List<User>();
+            var sales = new List<Sale>();
 
-            foreach (var user in usersDto)
+            foreach (var sale in salesDto)
             {
-                var userToAdd = Mapper.Map<User>(user);
+                var salesToAdd = Mapper.Map<Sale>(sale);
 
-                usersList.Add(userToAdd);
+                sales.Add(salesToAdd);
             }
 
-            context.Users.AddRange(usersList);
+            context.Sales.AddRange(sales);
             context.SaveChanges();
 
-            return $"Successfully imported {usersList.Count}";
+            return $"Successfully imported {sales.Count}";

@@ -3,7 +3,6 @@ C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databa
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.runtimeconfig.dev.json
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.dll
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.pdb
-C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\Extensible Markup Language - XML\Car Dealer\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfo.cs
