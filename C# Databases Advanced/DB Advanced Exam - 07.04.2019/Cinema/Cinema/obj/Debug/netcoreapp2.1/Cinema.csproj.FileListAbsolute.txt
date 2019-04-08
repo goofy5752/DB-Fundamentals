@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 07.04.2019\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.csprojAssemblyReference.cache
