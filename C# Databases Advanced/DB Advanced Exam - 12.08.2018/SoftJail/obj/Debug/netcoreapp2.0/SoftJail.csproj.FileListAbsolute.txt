@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.deps.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.runtimeconfig.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.pdb
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.dll
+C:\Users\Admin\Desktop\Programming\Software University\DB-Fundamentals\C# Databases Advanced\DB Advanced Exam - 12.08.2018\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.pdb
