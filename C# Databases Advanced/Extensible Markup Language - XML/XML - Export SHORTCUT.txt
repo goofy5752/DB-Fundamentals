@@ -1,17 +1,25 @@
-var productsInRange = context
-                .Products
-                .Where(p => p.Price >= 500 && p.Price <= 1000)
-                .Select(p => new ExportProductsInRangeDto()
+var prisonersInbox = context
+                .Prisoners
+                .Where(p => prisonersNames
+                .Split(",", StringSplitOptions.RemoveEmptyEntries)
+                .ToArray()
+                .Contains(p.FullName))
+                .Select(p => new ExportInboxMessageForPrisonerDto()
                 {
-                    Name = p.Name,
-                    Price = p.Price,
-                    Buyer = p.Buyer.FirstName + " " + p.Buyer.LastName
+                    Id = p.Id,
+                    Name = p.FullName,
+                    IncarcerationDate = p.IncarcerationDate.ToString("yyyy-MM-dd"),
+                    EncryptedMessages = p.Mails.Select(m => new MessageDto()
+                    {
+                        Description = ReverseString(m.Description)
+                    })
+                    .ToArray()
                 })
-                .OrderBy(p => p.Price)
-                .Take(10)
+                .OrderBy(p => p.Name)
+                .ThenBy(p => p.Id)
                 .ToArray();
 
-            var xml = new XmlSerializer(typeof(ExportProductsInRangeDto[]), new XmlRootAttribute("Products"));
+            var xml = new XmlSerializer(typeof(ExportInboxMessageForPrisonerDto[]), new XmlRootAttribute("Prisoners"));
 
             var sb = new StringBuilder();
 
@@ -20,6 +28,6 @@ var productsInRange = context
                 new XmlQualifiedName("", "")
             });
 
-            xml.Serialize(new StringWriter(sb), productsInRange, namespaces);
+            xml.Serialize(new StringWriter(sb), prisonersInbox, namespaces);
 
             return sb.ToString().TrimEnd();
