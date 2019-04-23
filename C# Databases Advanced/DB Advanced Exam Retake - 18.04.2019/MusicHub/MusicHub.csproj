@@ -13,8 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataProcessor\ImportDtos\" />
-    <Folder Include="Data\Models\Enums\" />
     <Folder Include="ImportResults\" />
   </ItemGroup>
 
